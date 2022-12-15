@@ -1,0 +1,124 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 160rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+}
+
+/*------NAVBAR------*/
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grow-list {
+    position: relative;
+    left: 2rem;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 2.18rem;
+    list-style: none;
+    font-family: poppins;
+    color: #b9b9b9;
+}
+
+.list-item:first-child {
+    color: black;
+}
+
+.button-group {
+    position: absolute;
+    right: 5.625rem;
+}
+
+.nav-button {
+    width: 8.125rem;
+    padding: 0.8rem 1rem;
+    border-radius: 0.625rem;
+}
+
+.navbar-container img {
+    width: 6.25rem;
+    position: relative;
+    top: 0.125rem;
+}
+
+/*------BANNER AREA------*/
+
+h1 {
+    font-family: poppins;
+    font-size: 2.5rem;
+    color: #3C2F60;
+}
+
+.heading-text {
+    margin-top: 100px;
+    width: 30vw;
+}
+
+p {
+    color: #00000062;
+    font-family: poppins;
+    font-size: 0.81rem;
+    font-weight: 550;
+}
+
+.description {
+    width: 25vw;
+}
+
+.banner-container img {
+    width: 46.875rem;
+    height: 31.25rem;
+    position: absolute;
+    right: 0px;
+    top: 6.875rem;
+}
+
+span {
+    color: #5955B3;
+}
+
+button {
+    font-family: poppins;
+    background-color: #5955B3;
+    color: #ffffff;
+    border: none;
+}
+
+.btn {
+    margin-top: 3.125rem;
+    padding: 0.625rem 1.25rem 0.625rem;
+    border-radius: 0.5rem;
+    width: 12.5rem;
+    height: 3.125rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
